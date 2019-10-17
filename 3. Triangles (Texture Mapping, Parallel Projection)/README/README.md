@@ -28,7 +28,7 @@ I was able to make different type of objects such as cylinder, cube.
 This is a simple example that was made with triangle. (cube)
 
 <img src="cube.png" width="50%" height="50%">
- <!-- .element height="50%" width="50%" -->
+
 
 
 ### Shading / Soft Shading
@@ -37,13 +37,13 @@ If the users do not give the vertex normal, the program will just calculate the 
 On the other side, if the users provide the vertex normal, it is possible to prevent from more angled sshading.
 
 Below is the picture of using NO soft shading (no vertex normal given), and soft shading (vertex normal given).
-![No Soft Shading](hard_cylinder.png)
-![Soft Shading](soft_cylinder.png)
+<img src="hard_cylinder.png" width="50%" height="50%">
+<img src="soft_cylinder.png" width="50%" height="50%">
 
 
 ### Texture Mapping
 Assumed that input texture has a texture coordinates the below, where upper left is (0,0), and lower right is (1, 1);
-![Texture Coordinates](texture_coordinates.png)
+<img src="texture_coordinates.png" width="50%" height="50%">
 
 I first stored the pictures' color coordinates in the array and mapped it when they had vt value in *f*.
 For example,
@@ -62,11 +62,10 @@ f 1/1 2/2 3/3
 f 1/1 3/3 4/4
 ```
 becomes the picture below.
-![Texture](texture.png)
+<img src="texture.png" width="50%" height="50%">
 
 As the object got bigger or the window size got bigger, the texture became more clear.
-![Texture in Cube](cube_texture.png)
-![Texture in Sphere](sphere_texture.png)
+<img src="cube_texture.png" width="50%" height="50%"> <img src="sphere_texture.png" width="50%" height="50%">
 
 
 ### Parallel Projection
@@ -78,12 +77,10 @@ The picture will be affected when viewing window size is changed since all the r
 Since changing eye value does not affect too much with viewing window size and location,
 changing **vfov** value will affect the view of the parallel projection.
 - original picture  
-![Original Picture](og_parallel.png)
-
+<img src="og_parallel.png" width="50%" height="50%">
 
 - vfov = 90 degree
-![vfov 90](parallel90.png)
-
+<img src="parallel90.png" width="50%" height="50%">
 
 - vfov = 120 degree
-![vfov 120](parallel120.png)
+<img src="parallel120.png" width="50%" height="50%">
