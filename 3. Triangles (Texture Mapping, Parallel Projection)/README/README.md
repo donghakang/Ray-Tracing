@@ -83,7 +83,7 @@ Therefore, changing **vfov** value will affect the view of the parallel projecti
 <img src="og_parallel.png" width="60%" height="60%">
 
 - vfov = 90 degree
-<img src="parallel120.png" width="60%" height="60%">
+<img src="parallel90.png" width="60%" height="60%">
 
 
 - vfov = 120 degree
