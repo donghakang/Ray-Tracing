@@ -6,7 +6,7 @@ October 16th, 2019
 
 ## Installation
 
-To compile the program. Simple use make file.
+To compile the program. Simple use make file in terminal
 ```bash
 make all
 ```
@@ -14,8 +14,8 @@ or
 ```bash
 make
 ```
-Once it compiles, compiler generates the object file called **kangx637**. To run the program.
-Also, you can have one input file here. Followed by ./kangx637.
+Once it compiles, compiler generates the object file called **kangx637**. To run the program, type ./kangx637 in terminal.
+Also, one input file is required.
 ```bash
 ./kangx637 <input.txt>
 ```
@@ -23,10 +23,12 @@ Also, you can have one input file here. Followed by ./kangx637.
 
 ## Write-up
 
-For this part of assignment. I tackled down with triangle object. By using triangle objects
+For this part of assignment, I generated triangle object. By using triangle objects
 I was able to make different type of objects such as cylinder, cube.
-This is the example that was made with triangle. (cube)
-![cube](cube.png)
+This is a simple example that was made with triangle. (cube)
+
+<img src="README/cube.png" width="100" height="100">
+ <!-- .element height="50%" width="50%" -->
 
 
 ### Shading / Soft Shading
