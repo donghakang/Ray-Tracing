@@ -1,0 +1,13 @@
+eye 5 5 -5
+viewdir -1 -1 1
+updir 0.0 1.0 0.0
+vfov  90
+imsize 500 600
+
+
+bkgcolor .7 .7 .7
+light 5.0 5.0 -5.0 1 1.0 1.0 1.0
+
+texture star.ppm
+
+sphere 0 0 0 2
