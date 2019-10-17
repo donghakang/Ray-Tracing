@@ -37,8 +37,8 @@ If the users do not give the vertex normal, the program will just calculate the 
 On the other side, if the users provide the vertex normal, it is possible to prevent from more angled sshading.
 
 Below is the picture of using NO soft shading (no vertex normal given), and soft shading (vertex normal given).
-<img src="hard_cylinder.png" width="50%" height="50%">
-<img src="soft_cylinder.png" width="50%" height="50%">
+<img src="hard_cylinder.png" width="40%" height="40%">
+<img src="soft_cylinder.png" width="40%" height="40%">
 
 
 ### Texture Mapping
@@ -62,6 +62,7 @@ f 1/1 2/2 3/3
 f 1/1 3/3 4/4
 ```
 becomes the picture below.
+
 <img src="texture.png" width="50%" height="50%">
 
 As the object got bigger or the window size got bigger, the texture became more clear.
