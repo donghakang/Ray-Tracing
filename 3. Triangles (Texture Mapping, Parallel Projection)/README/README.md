@@ -34,15 +34,18 @@ This is a simple example that was made with triangle. (cube)
 ### Shading / Soft Shading
 For Triangle objects, it was possible for user to provide the the objects' own vertex normal.
 If the users do not give the vertex normal, the program will just calculate the normal of the plane with given three vertices.
-On the other side, if the users provide the vertex normal, it is possible to prevent from more angled sshading.
+On the other side, if the users provide the vertex normal, it is possible to prevent from more angled shading.
 
 Below is the picture of using NO soft shading (no vertex normal given), and soft shading (vertex normal given).
 <img src="hard_cylinder.png" width="40%" height="40%">
 <img src="soft_cylinder.png" width="40%" height="40%">
 
+If there are no vertex normal given. It will generate more angled obejct since everything is created with triangle.
+Very small triangles might prevent the look of this angled object, but it will also requires numerous calculations.
+
 
 ### Texture Mapping
-Assumed that input texture has a texture coordinates the below, where upper left is (0,0), and lower right is (1, 1);
+Assumed that input texture has a texture coordinates like the below, where upper left is (0,0), and lower right is (1, 1);
 <img src="texture_coordinates.png" width="50%" height="50%">
 
 I first stored the pictures' color coordinates in the array and mapped it when they had vt value in *f*.
@@ -70,13 +73,12 @@ As the object got bigger or the window size got bigger, the texture became more 
 
 
 ### Parallel Projection
-For Parallel instead of having distance between eye and viewing window to be *1.0*, first I made the
+For Parallel Projection instead of having distance between eye and viewing window to be *1.0*, I made the
 distance between eye and viewing window to be ***0.0***.
-Also, before parallel, my ray started at my eye with direction being unit vector of *viewing window - eye*.
-For Parallel projection, my ray started from viewing window with direction being unit vector of viewing direciton.
+Before, my ray started at eye position with the direction being the unit vector of *viewing window - eye*.
+For Parallel projection, ray starts from viewing window with direction being the unit vector of the viewing direciton.
 The picture will be affected when viewing window size is changed since all the ray starts at the viewing window.
-Since changing eye value does not affect too much with viewing window size and location,
-changing **vfov** value will affect the view of the parallel projection.
+Therefore, changing **vfov** value will affect the view of the parallel projection.
 - original picture  
 <img src="og_parallel.png" width="60%" height="60%">
 
