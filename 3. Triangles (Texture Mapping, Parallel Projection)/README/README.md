@@ -27,7 +27,7 @@ For this part of assignment, I generated triangle object. By using triangle obje
 I was able to make different type of objects such as cylinder, cube.
 This is a simple example that was made with triangle. (cube)
 
-<img src="cube.png" width="100" height="100">
+<img src="cube.png" width="50%" height="50%">
  <!-- .element height="50%" width="50%" -->
 
 
