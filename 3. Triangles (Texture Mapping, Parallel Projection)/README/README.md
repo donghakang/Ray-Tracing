@@ -66,7 +66,7 @@ becomes the picture below.
 <img src="texture.png" width="50%" height="50%">
 
 As the object got bigger or the window size got bigger, the texture became more clear.
-<img src="cube_texture.png" width="50%" height="50%"> <img src="sphere_texture.png" width="50%" height="50%">
+<img src="cube_texture.png" width="40%" height="40%"> <img src="sphere_texture.png" width="40%" height="40%">
 
 
 ### Parallel Projection
@@ -78,10 +78,10 @@ The picture will be affected when viewing window size is changed since all the r
 Since changing eye value does not affect too much with viewing window size and location,
 changing **vfov** value will affect the view of the parallel projection.
 - original picture  
-<img src="og_parallel.png" width="50%" height="50%">
+<img src="og_parallel.png" width="60%" height="60%">
 
 - vfov = 90 degree
-<img src="parallel90.png" width="50%" height="50%">
+<img src="parallel90.png" width="60%" height="60%">
 
 - vfov = 120 degree
-<img src="parallel120.png" width="50%" height="50%">
+<img src="parallel120.png" width="60%" height="60%">
